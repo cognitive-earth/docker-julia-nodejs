@@ -24,16 +24,14 @@ if using the locally built image...
 ```
 docker run --rm -it \
     --name=julia-nodejs \
-    julia-nodejs:latest \
-    bin\bash
+    julia-nodejs:latest
 ```
 
 if using the docker repository image...
 ```
 docker run --rm -it \
     --name=julia-nodejs \
-    cognitiveearthdocker/julia-nodejs:latest \
-    bin\bash
+    cognitiveearthdocker/julia-nodejs:latest
 ```
 
 This should then give a command prompt inside the container that can be used to execute Julia or nodejs.
