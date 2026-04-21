@@ -1,0 +1,23 @@
+{
+  "$schema": "https://cognitive-earth/schemas/deploy.v1.json",
+  "kind": "cognitive-earth.deploy.v1",
+  "type": "docker",
+  "source": {
+    "localRepoPath": "/home/jbangay/cognitiveEarth/docker-julia-nodejs"
+  },
+  "docker": {
+    "repoName": "julia-nodejs",
+    "environment": "production"
+  },
+  "artifact": {
+    "registryProject": "cognitive-code",
+    "region": "australia-southeast1",
+    "repository": "julia-nodejs",
+    "imagePath": "australia-southeast1-docker.pkg.dev/cognitive-code/julia-nodejs/main",
+    "pushLatest": true,
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    }
+  }
+}
