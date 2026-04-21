@@ -1,6 +1,6 @@
 {
   "name": "@cognitive-earth/docker-julia-nodejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manage Julia NodeJS docker image releases",
   "homepage": "https://github.com/cognitive-earth/docker-julia-nodejs#readme",
   "publishConfig": {
